@@ -1,4 +1,4 @@
-# Quad_sim
+# drone_sim
 Repository with Gazebo models and worlds 
 
 To add models:
