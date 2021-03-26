@@ -13,6 +13,16 @@ echo "GAZEBO_MODEL_PATH=${GAZEBO_MODEL_PATH}:$HOME/catkin_ws/src/drone_sim/model
 source ~/.bashrc
 
 
-To start simulation:
+To start simulation at world named runway3 :
 
 roslaunch drone_sim runway3.launch
+
+To start sitl copy startsitl.sh to home diredtory and run:
+
+./startsitl.sh
+
+To start mavros (communication witch ardupilot):
+
+roslaunch drone_sim apm.launch
+
+

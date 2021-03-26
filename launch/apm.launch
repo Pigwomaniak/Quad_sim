@@ -10,7 +10,7 @@
 	<arg name="respawn_mavros" default="true"/>
 	<arg name="mavros_ns" default="/"/>
 
-	<include file="$(find iq_sim)/launch/mavros_node.launch">
+	<include file="$(find drone_sim)/launch/mavros_node.launch">
 		<arg name="pluginlists_yaml" value="$(find mavros)/launch/apm_pluginlists.yaml" />
 		<arg name="config_yaml" value="$(find mavros)/launch/apm_config.yaml" />
 		<arg name="mavros_ns" value="$(arg mavros_ns)"/>
