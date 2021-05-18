@@ -29,6 +29,6 @@ $ ./startsitl.sh
 ```
 To start mavros (communication witch ardupilot):
 ```
-$ roslaunch drone_sim apm.launch
+$ roslaunch mavros apm.launch fcu_url:=udp://127.0.0.1:14551@14555
 ```
 
