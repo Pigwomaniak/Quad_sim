@@ -81,7 +81,7 @@
     </include>
     <model name="iris">
       <include>
-        <uri>model://drone_with_camera_down</uri>
+        <uri>model://drone_with_camera_down2</uri>
       </include>
       <pose> 0 0 0 0 0 0</pose>
     </model>
